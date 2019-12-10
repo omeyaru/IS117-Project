@@ -1,0 +1,31 @@
+.navbar{
+    background-color: rgba(20, 20, 20, 0.96) !important;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.navbar{
+    margin-bottom: 0px;
+}
+
+.carousel-inner img {
+    margin: auto;
+}
+.navbar {
+    border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+}
+h1{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 70px;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: aliceblue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.6rem;
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Raleway&display=swap" rel="stylesheet">
+    <link href="style/contact.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<!--NAVBAR-->
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <!-- Brand -->
+    <a class="navbar-brand" href="index.html">Omar Orabee</a>
+    <!-- Responsive button for smaller menu -->
+    <button class="navbar-toggler" type="button"
+            data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <!-- Links -->
+    <div class="collapse navbar-collapse"
+         id="collapsibleNavbar">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Home Page</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="workxp.html">Work Experience</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="edu.html">Education</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <!-- Dropdown -->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                    Projects
+                </a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="proj1.html">Building my Own PC</a>
+                    <a class="dropdown-item" href="proj2.html">Making a Game</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<!--CONTACT FORM-->
+<h1 align="center">Contact Me</h1>
+<h2 align="center">Omar Orabee</h2>
+<h2 align="center">732-939-4255</h2align>
+<h3 align="center">omeyaru@live.com</h3>
+<p align="center">Leave your name and e-mail, and I'll get back to you as soon as possible.</p>
+<div class="container">
+    <form action="/action_page.php">
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+        </div>
+        <div class="form-group">
+            <label for="fName">First Name:</label>
+            <input type="name" class="form-control" id="fName" placeholder="Enter first name" name="fName">
+        </div>
+        <div class="form-group">
+            <label for="lName">Last Name:</label>
+            <input type="name" class="form-control" id="lName" placeholder="Enter last name" name="lName">
+        </div>
+        <div class="checkbox">
+            <label><input type="checkbox" name="remember">Finish</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
+<!--FOOTER-->
+<footer class="footer page-footer font-small ">
+    <div class="container">
+        <div class="row">
+            <span class="text-muted">&copy; Omar Orabee, 2019.|  Terms Of Use  |  Privacy Statement</span>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
